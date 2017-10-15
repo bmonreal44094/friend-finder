@@ -27,9 +27,9 @@ module.exports = function(app) {
         value = comparisonTotalsArray[i];
   	  }
   	}
-  	match = friends[index];
+  	yourFriend = friends[index];
     friends.push(req.body);
-  	res.json(match);
+  	res.json(yourFriend);
   });
 
 };
